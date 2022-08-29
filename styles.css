@@ -1,0 +1,30 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background-image: url("assets/crinkle.png");
+  
+}
+
+.picture {
+  float: right;
+  width: 300px;
+  height: 500px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+a:hover {
+  text-decoration-line: underline;
+}
+
+.poem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
